@@ -1,0 +1,118 @@
+
+// chitonga translation rules
+// This file is UTF-8 encoded
+//h<?> as written in Kirshenbaum (ASCII-IPA) Transcription Scheme; I can't seem to get to this voiced glottal fricative to work. That is why some of these phomenes have been commented or improvised to a degree that is understandable but an update is needed. See group h, m, n and v below where there is an h2 as a place holder
+//Also vowel o(mid back rounded) and u(mid front unrounded) havent been corectly implemented since i don't really know to add a ph_chitonga file
+
+.group a
+a      a
+ao	oo
+ae	ee
+
+.group b
+b	B
+bb      b
+bw	Bo-
+
+.group c
+c      Z
+ch      Z
+cc	tS
+
+.group d
+d      d
+
+.group e
+e      E
+
+.group f
+f      f //only useful for english borrowed wordsbut does not occure in this sound. the "f" sound is [h] in chitonga and is always used with a [w] like below. therefore this entry is ok as long as the entry below[fw] is implemented.
+
+fw	hw
+
+.group g
+g      g
+
+.group h
+h      h
+hy	h //hy diagraph
+//hh	h2
+
+.group i
+i      i
+ia	jaa
+ie	jee
+io	joo
+iu	juu
+
+.group j
+j      dZ
+
+.group k
+k      Q
+kk    k
+
+.group l
+l      l
+
+.group m
+m	m
+mb	mb
+mf	mhw
+//mv	mh2w
+
+.group n
+n	n
+nc	n^tS
+ng'     N	//diagraph
+nk      Nk
+ng      Ng
+ny	n^    //ny diagraph
+//nzy	nh2y 
+nsy	nhy
+
+.group o
+o      O
+
+.group p
+p      p
+pw	px
+
+.group r
+r	r
+
+.group s
+s      s
+sh      S
+sy	S  //impovised for sy    h2y
+//sy	sy //southern dailect
+
+
+.group t
+t      t
+
+.group u
+u      u
+ue	wee
+ui	wii
+ua	waa
+uo	oo
+
+.group v
+v      v  //only useful for english borrowed wordsbut does not occure in this sound. the "v" sound is h<?> in chitonga but I have failed to get it to work. Its always followed by a [w] like below but this[v] can implimented as long as the expresion below[vw] is implemented.
+
+vw	hw //improvised for vw h2w
+
+.group w
+w      w
+
+.group y
+y      j
+
+.group x
+x	x
+
+.group z
+z      z
+zy	hj
+
